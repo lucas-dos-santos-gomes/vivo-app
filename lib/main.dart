@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    Text(
-      'Hello, World!', 
-      textDirection: TextDirection.ltr,
+    Center(
+      child: Text(
+        'Hello, World!', 
+        textDirection: TextDirection.ltr,
+      ),
     ),
   );
 }
